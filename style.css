@@ -198,7 +198,71 @@ div .footer-left li a{
 
 /*=============================SMALL SCREENS==========================*/
 
-@media (max-width: 767px){
+@media screen and (max-width: 767px){
+    
+    #container{
+        width: 100%;
+        height: 100vh;
+            
+    }
+    
+    #navbar{
+    text-align: center;
+     margin-top: 20px ;
+    margin-right: 35px;
+}
+
+    
+    
+    #searchbar{
+    position: relative;
+}
+
+
+.fas{
+    z-index: 2;
+}
+
+.fa-search{
+    position: absolute;
+    left: 25vw;
+    top: 13px;
+    color: lightgrey;
+}
+.fa-microphone{
+    visibility: hidden;
+/*
+    position: absolute;
+    top: 13px;
+    right: 30vw;
+    color: blue;
+    font-size: 1.2em;
+*/
+}
+
+#input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 40px;
+    border: 0.5px #f2f2f2 solid;
+    border-radius: 100px;
+    margin-top: 10px;
+    cursor: text;
+    min-width: 10vw;
+    padding-left: 35px;
+}
+
+#input:focus{
+    border: none;
+    border-radius: 100px;
+    
+}
+
+    
+    
+    
     
     div.buttons{
         display: none;
