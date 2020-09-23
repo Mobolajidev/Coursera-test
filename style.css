@@ -157,19 +157,28 @@ div#translation{
     height: 105px;
 }
 
+footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+    width: 100%;
+}
+
 footer .footer1{
-    width: 100vw;
+    width: 100%;
     height: 40px;
     color: #5F6368;
     background-color: #f2f2f2;
     border: 0.5px #5F6368 solid;
     padding-left: 27.0px;
-    margin-left: 30px;
+    padding-top: 13px;
+/*    margin-left: 30px;*/
+
     
 }
 
 div .footer-left{
-     width: 100vw;
+     width: 100%;
     height: 40px;
     color: #5F6368;
     background-color: #f2f2f2;
@@ -185,4 +194,14 @@ div .footer-left li{
 div .footer-left li a{
     color: #5F6368;
     padding-left: 27px;
+}
+
+/*=============================SMALL SCREENS==========================*/
+
+@media (max-width: 767px){
+    
+    div.buttons{
+        display: none;
+    }
+    
 }
