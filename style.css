@@ -152,10 +152,12 @@ div#translation{
     margin-top: 25px;
 }
 
+/*
 #mc2{
     width: 100vw;
-    height: 105px;
+    height: 50px;
 }
+*/
 
 footer{
     position: fixed;
@@ -200,19 +202,22 @@ div .footer-left li a{
 
 @media screen and (max-width: 767px){
     
-    #container{
-        width: 100%;
-        height: 100vh;
-            
-    }
-    
-    #navbar{
+        #navbar{
     text-align: center;
      margin-top: 20px ;
     margin-right: 35px;
 }
 
+    #logo{
+        width: 25%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:  100px;
     
+}
+
     
     #searchbar{
     position: relative;
@@ -268,4 +273,16 @@ div .footer-left li a{
         display: none;
     }
     
+    div .footer-left{
+/*
+     width: 100%;
+    height: 40px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+border-top:  1px solid #e4e4e4;
+    padding: 10px;
+*/
+        text-align: center;
+}
+
 }
